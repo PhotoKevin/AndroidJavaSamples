@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.emptyviewsactivity"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.example.emptyviewsactivity"
@@ -26,6 +26,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+    compileSdkMinor = 1
 }
 
 dependencies {

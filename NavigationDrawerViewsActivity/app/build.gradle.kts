@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.navigationdrawerviewsactivity"
-    compileSdk = 34
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.example.navigationdrawerviewsactivity"
@@ -29,6 +29,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    compileSdkMinor = 1
 }
 
 dependencies {
